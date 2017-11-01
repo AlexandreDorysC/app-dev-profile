@@ -11,11 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var profileLogoImageView: UIImageView!
+    @IBOutlet weak var customizeDashboardButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         profileLogoImageView.layer.cornerRadius = 10
+        customizeDashboardButton.layer.cornerRadius = 10
         
         // Do any additional setup after loading the view, typically from a nib.
     }
